@@ -1,19 +1,27 @@
-# Mon Projet ✨
+# Refonte du site du restaurant Paul Bert
 
-Refonte du site du restaurant Paul Bert en utilisant HTML et SCSS (Sass). Objectif : apprentissage du SCSS et reproduction fidèle du design du site original.
+Reproduction du site du restaurant Paul Bert en HTML et SCSS, réalisée pour apprendre Sass. Projet d'apprentissage, sans lien officiel avec le restaurant.
 
-# Installation ✨
+**Démo :** https://marylineb.github.io/refonte-restau-paul-bert/
 
-Cloner ce repo
+## Stack
 
-Compiler SCSS :
-sass style.scss style.css
+HTML · SCSS (Sass)
 
-Ouvrir index.html
+## Pages
 
-## Technologies 🛠️
+Accueil, menu, boutique (merch) et contact, plus une page par produit dans `produits/`.
 
-HTML5
+## Lancer le projet
 
-SCSS (Sass)
+```bash
+git clone https://github.com/marylineb/refonte-restau-paul-bert.git
+cd refonte-restau-paul-bert
+sass style.scss style.css   # recompiler le CSS après une modification du SCSS
+```
 
+Puis ouvrir `index.html` dans un navigateur.
+
+## Auteure
+
+Maryline Biloa · [Portfolio](https://marylinebiloa.com)
